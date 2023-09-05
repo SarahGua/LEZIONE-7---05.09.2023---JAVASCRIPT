@@ -89,8 +89,6 @@ console.log(costoTotale1)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
-
-
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
@@ -121,6 +119,14 @@ console.log(5 % 2)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let val = 15
+if (val < 5) {
+    console.log("Meno di 5");
+  } else if (val < 10) {
+    console.log("Meno di 10");
+  } else {
+    console.log("Uguale a 10 o maggiore");
+  }
 
 
 /* ESERCIZIO 11
@@ -153,6 +159,8 @@ console.log(me)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.splice(2, 1)
+console.log(me)
 
 
 /* ESERCIZIO 14
@@ -160,22 +168,19 @@ console.log(me)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const example = {
-  number : 1,
-  number : 2,
-  number : 3,
-  number : 4,
-  number : 5,
-  number : 6,
-  number : 7,
-  number : 8,
-  number : 9,
-  number : 10,
-}
+const example = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,]
+
+console.log(example)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+example.pop()
+console.log(example)
+
+example.push(100)
+console.log(example)
+
 
